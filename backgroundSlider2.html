@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+     .slider{
+
+            width: 600px;
+            height: 600px;
+            margin: 20px auto;
+            position: relative;
+
+        }
+
+        .slider1,
+        .slider2, 
+        .slider3,
+        .slider4 {
+
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+
+        .slider1{
+        
+         
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Boeing_Stearman_N67193.jpg);
+            background-size: cover;
+            animation: fade 8s infinite;
+            background-position: 65% 55%;
+            
+        }
+
+        .slider2{
+
+            background-image: url(https://www.aviationmegastore.com/img/prod/full/9/0/169428_0.jpg);
+            background-size: cover;
+            animation: fade1 18s infinite;
+
+        }
+
+
+        .slider3{
+
+            background-image: url(https://lh3.googleusercontent.com/proxy/hMuZkj2bB7XhD2pgL-Rma4YVOIRe_NmGJgERnv1oQOkt5tHl2DasC_0q6t1VEZ_Rlk73v-S4tuhZneiHkjkOnwzUwAG3snFlNbaSTWqD1ugC2Ig1AH1V9A);
+            background-size: cover;
+            animation: fade2 18s infinite;
+
+        }
+
+        .slider4{
+
+            
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRayMHF5NnNHLw6I0uaAVkXpQum2id-j_FGqA&usqp=CAU);
+            background-size: cover;
+            animation: fade3 18s infinite;
+
+
+        }
+
+
+        @keyframes fade {
+
+            0% {opacity: 1;}
+
+            25% {opacity: 0;}
+
+            50% {opacity: 0;}
+
+            75% {opacity: 0;}
+
+            100% {opacity: 1;}
+
+        }
+
+        
+        @keyframes fade1 {
+
+            0% {opacity: 0;}
+
+            25% {opacity: 1;}
+
+            50% {opacity: 0;}
+
+            75% {opacity: 0;}
+
+            100% {opacity: 0;}
+
+        }
+
+
+        @keyframes fade2 {
+
+            0% {opacity: 0;}
+
+            25% {opacity: 0;}
+
+            50% {opacity: 1;}
+
+            75% {opacity: 0;}
+
+            100% {opacity: 0;}
+
+        }
+
+        @keyframes fade3 {
+
+            0% {opacity: 0;}
+
+            25% {opacity: 0;}
+
+            50% {opacity: 0;}
+
+            75% {opacity: 1;}
+
+            100% {opacity: 0;}
+
+        }
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div class="slider">
+
+        <div class="slider1"></div>
+        <div class="slider2"></div>
+        <div class="slider3"></div>
+        <div class="slider4"></div>
+
+
+    </div>
+
+
+
+</body>
+</html>
